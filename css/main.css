@@ -125,11 +125,14 @@ nav a:hover {
 }
 
 .Second {
+  background-image: url("../images/Second.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   padding-top: 150px;
   margin: 0 auto;
-  background: rgba(165, 209, 240, 0.383);
   height: 600px;
   margin-bottom: 10px;
 }
