@@ -215,28 +215,154 @@ td {
   height: 5px;
 }
 
+#Sanya {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  background-image: url("../images/sanya/sanya1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+}
 
-#piano {
+#Sanya #Sanya1 {
+  position: absolute;
+  top: 150px;
+  right: 160px;
+  font-family: Helvetica, sans-serif, Arial;
+  font-weight: lighter;
+  font-size: 42px;
+  color: #f1f1f1;
+}
+
+#Sanya #Sanya2 {
+  position: absolute;
+  top: 215px;
+  right: 160px;
+  font-family: Helvetica, sans-serif, Arial;
+  font-weight: 300;
+  font-size: 22px;
+  color: #f1f1f1;
+}
+
+#Sanya div {
+  position: absolute;
+  top: 300px;
+  right: 150px;
+  color: #f1f1f1;
+  font-family: Helvetica, sans-serif, Arial;
+  font-size: 25px;
+  height: 65px;
+  width: 240px;
+  text-align: center;
+  line-height: 65px;
+  background-color: #a4d4ce;
+  border-radius: 80px;
+}
+
+
+#Piano {
+  height: 250px;
   background-color: rgb(255, 255, 255);
   background-image: url("../images/footer.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   margin-top: 15px;
-  padding-top: 100px;
-  padding-left: 20%;
-  padding-bottom: 100px;
+  padding-top: 30px;
+  /* padding-left: 20%; */
+  padding-bottom: 50px;
   text-align: center;
   line-height: 25px;
 }
 
-#piano li {
+#Piano li {
   list-style: none;
-  margin-bottom: 25px;
+  margin-bottom: 12px;
 }
 
-#piano a {
+#Piano a {
   font-size: 18px;
   text-decoration: none;
   color: #3c3c3c;
+}
+
+.Photo1 {
+  height: 900px;
+  background-image: url("../images/sanya/sanya1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#SanyaWord1 {
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 5px;
+}
+
+#SanyaWord2 {
+  text-align: center;
+}
+
+.Photo1 {
+  height: 900px;
+  background-image: url("../images/sanya/sanya1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#Split {
+  display: flex;
+  width: 100%;
+  height: 550px;
+}
+
+.Photo2 {
+  flex: 1;
+  height: 450px;
+  background-image: url("../images/sanya/sanya2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 15px;
+}
+
+.Photo3 {
+  flex: 1;
+  height: 450px;
+  background-image: url("../images/sanya/sanya3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#SanyaWord3 {
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 5px;
+}
+
+#SanyaWord4 {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.Photo4 {
+  height: 900px;
+  background-image: url("../images/sanya/sanya4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 15px;
+}
+
+.Photo5 {
+  height: 900px;
+  background-image: url("../images/sanya/sanya5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
