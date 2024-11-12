@@ -433,47 +433,48 @@ td {
 
   #myWords {
     margin-right: 0px;
+  }
+
+  #FirstLeft {
+    float: left;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 850px) {
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .First {
+    height: 1000px;
+  }
+
+  #myWords {
+    margin-right: 0px;
 
     #FirstLeft {
       float: left;
       margin-left: 0px;
     }
   }
+}
 
-  @media (max-width: 850px) {
-    * {
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .First {
-      height: 1000px;
-    }
-
-    #myWords {
-      margin-right: 0px;
-
-      #FirstLeft {
-        float: left;
-        margin-left: 0px;
-      }
-    }
+@media (max-width: 600px) {
+  * {
+    font-family: Arial, Helvetica, sans-serif;
   }
 
-  @media (max-width: 600px) {
-    * {
-      font-family: Arial, Helvetica, sans-serif;
-    }
+  .First {
+    height: 1100px;
+  }
 
-    .First {
-      height: 1100px;
-    }
+  #myWords {
+    margin-right: 0px;
 
-    #myWords {
-      margin-right: 0px;
-
-      #FirstLeft {
-        float: left;
-        margin-left: 0px;
-      }
+    #FirstLeft {
+      float: left;
+      margin-left: 0px;
     }
   }
+}
