@@ -403,13 +403,18 @@ td {
 }
 
 
-@media (max-width: 1800px) {
+@media (max-width: 2200px) {
   * {
     font-family: Helvetica, sans-serif;
   }
 
+  #portrait {
+    width: 200px;
+    height: 200px;
+  }
+
   .First {
-    height: 900px;
+    height: 650px;
   }
 
   #myWords {
@@ -428,7 +433,7 @@ td {
   }
 
   .First {
-    height: 900px;
+    height: 600px;
   }
 
   #myWords {
