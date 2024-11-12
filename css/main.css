@@ -1,22 +1,25 @@
 * {
   margin: 0;
   padding: 0;
+  /* clean all of margin and padding */
   font-family: Cormorant SC, Didot, Arial, Helvetica, sans-serif;
 }
 
-/* clean all of margin and padding */
-
 body {
   background-color: #f1f1f1;
+  /* change the colour of background */
 }
-
-/* change the colour of background */
 
 html {
   scroll-behavior: smooth;
+  /* make it smoother when click some link */
 }
 
-/* make it smoother when click some link */
+figcaption {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+}
 
 .w {
   width: 100%;
@@ -37,7 +40,7 @@ p {
 }
 
 .headerLine {
-  font-size: 24px;
+  font-size: 40px;
   font-weight: 900;
 }
 
@@ -143,11 +146,16 @@ nav a:hover {
 
 #FirstLeft {
   float: left;
+  margin-left: 120px;
 }
 
 #AboutMe {
   float: left;
   padding-left: 50px;
+}
+
+#myWords {
+  margin-right: 200px;
 }
 
 .Second {
@@ -202,6 +210,7 @@ nav a:hover {
 }
 
 .Third #ThirdLeft ol {
+  margin-top: 70px;
   margin-left: 50%;
   /* display: block;
   list-style-type: inside; */
@@ -392,3 +401,79 @@ td {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+
+@media (max-width: 1800px) {
+  * {
+    font-family: Helvetica, sans-serif;
+  }
+
+  .First {
+    height: 900px;
+  }
+
+  #myWords {
+    margin-right: 0px;
+  }
+
+  #FirstLeft {
+    float: left;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 1000px) {
+  * {
+    font-family: Helvetica, sans-serif;
+  }
+
+  .First {
+    height: 900px;
+  }
+
+  #myWords {
+    margin-right: 0px;
+
+    #FirstLeft {
+      float: left;
+      margin-left: 0px;
+    }
+  }
+
+  @media (max-width: 850px) {
+    * {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .First {
+      height: 1000px;
+    }
+
+    #myWords {
+      margin-right: 0px;
+
+      #FirstLeft {
+        float: left;
+        margin-left: 0px;
+      }
+    }
+  }
+
+  @media (max-width: 600px) {
+    * {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .First {
+      height: 1100px;
+    }
+
+    #myWords {
+      margin-right: 0px;
+
+      #FirstLeft {
+        float: left;
+        margin-left: 0px;
+      }
+    }
+  }
