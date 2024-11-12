@@ -416,7 +416,8 @@ td {
 
 @media (max-width: 2200px) {
   * {
-    font-family: Helvetica, sans-serif;
+    font-family: Cormorant SC,
+      Didot, Helvetica, sans-serif;
   }
 
   #portrait {
