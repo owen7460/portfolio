@@ -1,16 +1,22 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Didot, Arial, Helvetica, sans-serif;
+  font-family: Cormorant SC, Didot, Arial, Helvetica, sans-serif;
 }
+
+/* clean all of margin and padding */
 
 body {
   background-color: #f1f1f1;
 }
 
+/* change the colour of background */
+
 html {
   scroll-behavior: smooth;
 }
+
+/* make it smoother when click some link */
 
 .w {
   width: 100%;
@@ -99,6 +105,8 @@ nav a {
 #logoClick {
   width: 100px;
 }
+
+/* this is for the logo hover*/
 
 nav a:hover {
   background-color: #bdbdbd;
