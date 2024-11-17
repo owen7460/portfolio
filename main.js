@@ -54,8 +54,10 @@ singers.forEach((item, index) => {
 
 
   if (index % 2 === 0) {
-    // li.innerText = `${item} - Even`;
+
     li.style.backgroundColor = "orange";
+  } else {
+    li.style.backgroundColor = "white"
   }
 
   favSingers.appendChild(li);
