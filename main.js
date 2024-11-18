@@ -1,5 +1,5 @@
-let myName = document.getElementById("name");
-console.log(myName)
+const myName = document.getElementById("Owen");
+
 
 
 const fYear = document.getElementById("footerYear");
