@@ -54,10 +54,11 @@ singers.forEach((item, index) => {
 
 
   if (index % 2 === 0) {
-
     li.style.backgroundColor = "orange";
+    li.innerText = (`odd`);
   } else {
     li.style.backgroundColor = "white"
+    li.innerText = (`even`);
   }
 
   favSingers.appendChild(li);
